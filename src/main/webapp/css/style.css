@@ -1,0 +1,178 @@
+html{
+padding-top: 25px;
+  background-color: azure;
+}
+body {
+
+}
+.wrap {
+    margin: 10px auto;
+    width :90%;
+	border-radius : 10px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+.head img {
+    max-height: 267px;
+    max-width: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+    display: inline-block;
+    
+}
+.head form{
+	display : inline-block;
+	
+}
+.buttons input[type="button"]{
+	 width: 180px;
+	 border-radius :20px;
+	 margin-top: 10px
+           
+}
+.selector{
+	margin-top:10px;
+	display:none;
+	
+}
+.Ok{
+	margin-top:10px;
+}
+#first{
+	display:none;
+}
+#second{
+	display:none;
+}
+.submit{
+	width:  140px;
+	height: 30px;
+	border-radius: 50px;
+}
+.top_buttons form{
+	display: inline-block;
+	 
+}
+
+.top_buttons{
+	margin-left:800px;
+}
+.head {
+    display: block;
+    background-color: azure;
+}
+.content{
+    background-color: azure;
+}
+.content form{
+    display: inline-block;
+}
+
+.content form {
+    padding: 10px 20px;
+    position: absolute;
+    margin-left: 810px;
+    border: 1px solid marron;
+    background: rgb(180,180,180);
+    width: 200px;
+    
+}
+.reg form{
+		 margin-left: 400px;
+		 position: absolute;
+		 display:none;
+		 width : 300px;
+}
+
+.content .reg form input[type="text"]{
+	width : 250px;
+}
+
+.content form input[type = "text"]{
+	width:  140px;
+	height: 30px;
+
+}
+
+.review #spec{
+	width :200px;
+	height: 300px;
+}
+
+input[type="text"] {
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top :10px;
+	width:600px;
+	height: 20px;
+
+}
+
+.cabinet form{
+	width:  140px;
+	height: 30px;
+	border-radius: 50px;
+	margin-left: 600px;
+	margin-top: 10px;
+}
+.logout form{
+	width:  140px;
+	height: 30px;
+	border-radius: 50px;
+	margin-left: 800px;
+	margin-top: 10px;
+}
+input[type="button"]{
+	width:  140px;
+	height: 30px;
+	border-radius: 25px;
+}
+input[type="submit"]{
+	width:  140px;
+	height: 30px;
+	border-radius: 25px;
+}
+
+form input {
+    width: 100px;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer{
+     width: 100%;
+            height: 60px;
+            background-color: grey;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            padding-top: 30px;
+  
+}
+.main_posts_block{
+            margin-top: 10px;
+            border-radius: 10px;
+            border-color: grey;
+            border-style: dotted;
+            padding: 10px 10px 10px 10px;
+            margin-bottom: 10px;       
+}
+textarea{
+	margin-top : 10px;
+	height: 140px;
+    width: 400px;
+    padding: 2px;
+}
+
+.addForm{
+	display : none;
+}
+
+#search_box {
+            background-color:azure;
+        }
+
+#ads_box {
+            border-radius: 10px;
+            background-color: azure
+        }

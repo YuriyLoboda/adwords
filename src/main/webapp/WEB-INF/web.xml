@@ -1,0 +1,97 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>Search</servlet-name>
+  <servlet-class>controller.SearchController</servlet-class>
+  </servlet>
+  
+ <servlet>
+ <servlet-name>Registration</servlet-name>
+ <servlet-class>controller.RegistrationController</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>SignIn</servlet-name>
+  <servlet-class>controller.SignInController</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ <servlet-name>Logout</servlet-name>
+ <servlet-class>controller.LogoutController</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ <servlet-name>Auto</servlet-name>
+ <servlet-class>controller.AutoController</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ <servlet-name>Work</servlet-name>
+ <servlet-class>controller.WorkController</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ <servlet-name>Realty</servlet-name>
+ <servlet-class>controller.RealtyController</servlet-class>
+ </servlet>
+ 
+  <servlet>
+  <servlet-name>Cabinet</servlet-name>
+  <servlet-class>controller.CabinetController</servlet-class>
+  </servlet>
+ 
+ <servlet>
+ <servlet-name>Dispatcher</servlet-name>
+ <servlet-class>controller.DispatcherController</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+  <servlet-name>Search</servlet-name>
+  <url-pattern>/searched</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>SignIn</servlet-name>
+  <url-pattern>/signIn</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Registration</servlet-name>
+  <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Logout</servlet-name>
+  <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Dispatcher</servlet-name>
+  <url-pattern>/dispatcher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Auto</servlet-name>
+  <url-pattern>/auto</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Cabinet</servlet-name>
+  <url-pattern>/cabinet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Work</servlet-name>
+  <url-pattern>/work</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Realty</servlet-name>
+  <url-pattern>/realty</url-pattern>
+  </servlet-mapping>
+</web-app>
