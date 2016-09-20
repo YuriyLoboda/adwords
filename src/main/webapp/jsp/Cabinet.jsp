@@ -43,6 +43,7 @@
    
    <div class="buttons">
 		<input type="button" id="add" value="Создать объявление">
+		<input type="button" id="add">Создать объявление</input>
 		<input type="button" id="delete" value="Удалить объявление" onclick="ajaxDelete()">  
 		<input type="button" id="edit" value="Редактировать объявление" onclick="ajaxEdit()">
     </div>

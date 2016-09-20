@@ -22,7 +22,7 @@
     
     </div>
     <div class="content">
-    <form method="post"  id="index"action="http://localhost:8080/yuriy_loboda_adwords_web/userCheck">
+    <form method="post"  id="index"action="http://localhost:8080/yuriy_loboda_adwords_web/signIn">
     	<%String err =(String) session.getAttribute("Error"); %>
    		 <%if (err!=null) out.println(err); %>
    		 <input type="text" placeholder="Введите логин" name="login" >
@@ -37,7 +37,7 @@
      		<input type="text" placeholder="Введите логин" id="loginR" name="loginR">
      		<input type="text" placeholder="Введите пароль(больше 3х символов)" id="passR" name="passR">
      		<input type="text" placeholder="Повторите пароль(должны совпадать)" id="passRConfirm" name="passRConfirm">
-     		 <input type = "submit" value="Зарегистрироваться"  >
+     		<input type = "submit" value="Зарегистрироваться"  >
      		
      	</form>
    
