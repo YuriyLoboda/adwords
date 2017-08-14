@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yuriy_loboda_adwords_web:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="yuriy_loboda_adwords_web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="yuriy_loboda_adwords_web:war exploded" />
+    </root>
+  </artifact>
+</component>

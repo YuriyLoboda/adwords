@@ -1,39 +1,38 @@
 package service;
 
-import java.util.List;
-
 import dao.CatalogDao;
 import domain.Catalog;
 
-public class CatalogServImpl implements CatalogServ{
-	
-	private static CatalogDao catDao;
-	
-	public CatalogServImpl(CatalogDao catDao) {
-		this.catDao=catDao;
-	}
+import java.util.List;
 
-	public void addNewCatalog(Catalog cat) {
-		catDao.create(cat);
-		
-	}
+public class CatalogServImpl implements CatalogServ {
 
-	public Catalog findCatalog(Long id) {
-		return catDao.read(id);
-	}
+    private static CatalogDao catDao;
 
-	public void updateCatalog(Catalog cat) {
-		catDao.update(cat);
-		
-	}
+    public CatalogServImpl(CatalogDao catDao) {
+        this.catDao = catDao;
+    }
 
-	public void deleteCatalog(Catalog cat) {
-		catDao.delete(cat);
-		
-	}
+    public void addNewCatalog(Catalog cat) {
+        catDao.create(cat);
+    }
 
-	public List<Catalog> findAll() {
-		return catDao.findAll();
-	}
+    public Catalog findCatalog(Long id) {
+        return catDao.read(id);
+    }
+
+    public void updateCatalog(Catalog cat) {
+        catDao.update(cat);
+
+    }
+
+    public void deleteCatalog(Catalog cat) {
+        catDao.delete(cat);
+
+    }
+
+    public List<Catalog> findAll() {
+        return catDao.findAll();
+    }
 
 }
